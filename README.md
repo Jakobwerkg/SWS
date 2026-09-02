@@ -123,9 +123,6 @@ produces very large GIFs. For a quick look, try `nt = 200`.
 
 ## Notes
 
-* The method string `upwind_space_eueler_time` has a typo ("eueler"), but it is the
-  literal value the code compares against — keep it, or rename it in both
-  `config.py` and `run_simulation.py`.
 
 ---
 
