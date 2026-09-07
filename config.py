@@ -2,9 +2,9 @@ import numpy as np
 import sys
 
 # ----------- Choose numerical method -----------
-numerical_method = "upwind_space_eueler_time"  # Options: "RK4", upwind_space_eueler_time
+numerical_method = "upwind_space_euler_time"  # Options: "RK4", upwind_space_euler_time
 
-valid_methods = ["RK4", "upwind_space_eueler_time"]
+valid_methods = ["RK4", "upwind_space_euler_time"]
 if numerical_method not in valid_methods:
     raise ValueError(f"Invalid method: {numerical_method}. Choose one of {valid_methods}")
 
